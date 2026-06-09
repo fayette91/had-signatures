@@ -1,0 +1,75 @@
+:root{
+  --backd-1: #ededed;
+  --backd-2: #efefef;
+  --backd-3: #ebebeb;
+  --bordd-1: #d7d5d5;
+  --bordd-2: #ccc;
+  --bordd-3: #bbb;
+  --txtd-0: #aaa;
+  --txtd-1: #444;
+  --txtd-2: #555;
+  --txtd-3: #777;
+  --backn-2: #191919;
+  --backn-1: #151515;
+  --backn-3: #101010;
+  --bordn-0: #191919;
+  --bordn-1: #2c2c2c;
+  --bordn-2: #222;
+  --bordn-3: #333;
+  --txtn-1: #ccc;
+  --txtn-2: #aaa;
+  --txtn-3: #888;
+  --g3: #6F628A;
+  --g7: #323A5F;  
+}
+
+.evan-s-bx {width: 320px; height: 190px; margin: auto; position: relative; overflow: hidden; border: 12px solid var(--g7); border-image: linear-gradient(to bottom, var(--g7) 0%, var(--bordn-1) 100%) 1; outline: 1px solid var(--g7); outline-offset: -12px; transition: all ease-in-out 0.7s}
+
+.evan-s-bx img {margin: auto; transition: all ease-in-out 0.7s}
+
+.evan-s-bx:hover {transition: all ease-in-out 0.7s; border-image: linear-gradient(to bottom, var(--bordn-1) 0%, var(--g7) 100%) 1; outline: 1px solid var(--g7); outline-offset: -12px;}
+
+.evan-s-bx:hover img {transition: all ease-in-out 0.7s; filter: grayscale(1) brightness(70%)}
+
+.evanb-uno {width: 0px; height: 195px; margin: -195px 0px 0px 0px; position: absolute; background: rgb(0, 0, 0, .5); transition: all ease-in-out 0.7s}
+
+.evanb-dos {width: 0px; height: 195px; margin: -195px 0px 0px 320px; position: absolute; background: rgb(0, 0, 0, .5); transition: all ease-in-out 0.7s;}
+
+.evan-s-bx:hover .evan-back-uno {transition: all ease-in-out 0.7s; width: 160px; height: 195px}
+
+.evan-s-bx:hover .evan-back-dos {transition: all ease-in-out 0.7s; width: 160px; height: 195px; margin: -195px 0px 0px 160px;}
+
+.etexto {width: 280px; height: auto; margin: -40px 0px 0px 10px; position: absolute; color: #eee; font-family: google sans code; font-size: 10px; text-transform: uppercase; line-height: 150%; transition: all ease-in-out 0.7s}
+
+.etexto span {font-family: zen dots; background: var(--g7); padding: 2px}
+
+.evan-s-bx:hover .etexto {transition: all ease-in-out 0.7s; margin: 10px 0px 0px 10px;}
+
+.etexto-dos {width: 270px; height: auto; margin: -127px 0px 0px 25px; position: absolute; color: #eee; font-family: google sans code; font-size: 9px; text-transform: uppercase; line-height: 200%; transition: all ease-in-out 0.7s; text-align: center; opacity: 0}
+
+.evan-s-bx:hover .etexto-dos {transition: all ease-in-out 0.7s; margin: margin: -127px 0px 0px 25px; opacity: 1; transition-delay: 0.7s}
+
+.ev-glitch {position: relative; color: #fff; z-index: 1; font-family: zen dots; font-size: 12px; font-weight: bold;}
+
+.ev-glitch:before, .g-glitch:after {display: block; content: attr(data-text); position: absolute; top: 0px; left: 0px; opacity: 0.8;}
+
+.ev-glitch:before {animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite; color: #00FFFF; z-index: -1;}
+
+.ev-glitch:after {animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite; color: #FF00FF; z-index: -2}
+
+@keyframes glitch-it {
+   0% { transform: translate(0); }
+   20% { transform: translate(-2px, 1px); }
+   40% { transform: translate(-2px, -1px); }
+   60% { transform: translate(2px, 1px); }
+   80% { transform: translate(1px, -1px); }
+   to { transform: translate(0); }
+}
+
+.eline-u {width: 0px; height: 0px; margin: -150px 0px 0px 0px; position: absolute; background: #aaa; transition: all ease-in-out 0.7s}
+
+.eline-d {width: 0px; height: 0px; margin: -40px 0px 0px 350px; position: absolute; background: #aaa; transition: all ease-in-out 0.7s}
+
+.evan-s-bx:hover .eline-u {transition: all ease-in-out 0.7s; width: 350px; height: 1px; transition-delay: 0.7s}
+
+.evan-s-bx:hover .eline-d {transition: all ease-in-out 0.7s; width: 350px; height: 1px; transition-delay: 0.7s; margin: -40px 0px 0px 0px}
