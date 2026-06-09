@@ -1,0 +1,27 @@
+.had-s-bx {width: 300px; height: 180px; margin: auto; position: relative; overflow: hidden; background: #111; padding: 12px; transition: all ease-in-out 0.7s; outline: 1px solid var(--celebridades); outline-offset: -8px;}
+
+.had-s-bx img {width: 300px; height: 180px; margin: 0px 0px 0px 0px; transition: all ease-in-out 0.7s; position: absolute; overflow: hidden}
+
+.had-s-bx:hover {transition: all ease-in-out 0.7s}
+
+.had-s-bx:hover img {transition: all ease-in-out 0.7s; filter: grayscale(1) brightness(30%);}
+
+.hsb {width: 0px; height: 190px; margin: -5px 0px 0px -5px; background: var(--celebridades); transition: all ease-in-out 0.7s; position: absolute;}
+
+.had-s-bx:hover .hsb {width: 305px; transition: all ease-in-out 0.7s; background: var(--celebridades)}
+
+.hsb-2 {width: 1px; height: 190px; margin: -5px 0px 0px 304px; background: var(--celebridades); transition: all ease-in-out 0.7s; position: absolute; overflow: hidden}
+
+.had-s-bx:hover .hsb-2 {width: 305px; transition: all ease-in-out 0.7s; background: var(--celebridades); margin: -5px 0px 0px 0px;}
+
+.hsb-f {width: 180px; height: auto; margin: 40px 0px 0px 50px; position: absolute; padding: 10px; font-family: contrail one; line-height: 100%; color: #bbb; font-size: 30px; text-transform: uppercase; font-weight: bold; transition: all ease-in-out 0.7s; letter-spacing: 1px; border-bottom: 2px solid var(--celebridades); text-align: center; opacity: 0; filter: blur(2px)}
+
+.had-s-bx:hover .hsb-f {transiition: all ease-in-out 0.7s; opacity: 1; filter: blur(0px)}
+
+.hsb-f-1 {width: 170px; height: auto; margin: 105px 0px 0px 70px; position: absolute; font-family: inconsolata; font-size: 10px; text-transform: uppercase; color: #bbb; text-align: center; font-weight: bold; letter-spacing: 1px; line-height: 120%; transition: all ease-in-out 0.7s; opacity: 0; filter: blur(2px)}
+
+.had-s-bx:hover .hsb-f-1 {transition: all ease-in-out 0.7s; opacity: 1; filter: blur(0px)}
+
+.hsb-img {width: 300px; height: 180px; margin: 0px 0px 0px 0px; position: absolute; background: url(https://i.pinimg.com/originals/41/6d/03/416d03f943c929d89eed9dfbdb1ab121.gif); mix-blend-mode: screen; transition: all ease-in--out 0.7s; opacity: 0;}
+
+.had-s-bx:hover .hsb-img {transition: all ease-in-out 0.7s; opacity: 0.5}
