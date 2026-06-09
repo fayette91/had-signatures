@@ -1,0 +1,52 @@
+:root{
+  --backd-1: #ededed;
+  --backd-2: #efefef;
+  --backd-3: #ebebeb;
+  --bordd-1: #d7d5d5;
+  --bordd-2: #ccc;
+  --bordd-3: #bbb;
+  --txtd-0: #aaa;
+  --txtd-1: #444;
+  --txtd-2: #555;
+  --txtd-3: #777;
+  --backn-2: #191919;
+  --backn-1: #151515;
+  --backn-3: #101010;
+  --bordn-0: #191919;
+  --bordn-1: #2c2c2c;
+  --bordn-2: #222;
+  --bordn-3: #333;
+  --txtn-1: #ccc;
+  --txtn-2: #aaa;
+  --txtn-3: #888;
+  --g10: #B88A99;
+  
+}
+
+.ande-s-bx {width: 300px; height: 180px; margin: auto; position: relative; overflow: hidden; border: 10px solid var(--bordd-1); outline: 1px solid var(--g10); outline-offset: -9px; transition: all ease-in-out 0.7s}
+
+.ande-s-bx img {margin: auto; transition: all ease-in-out 0.7s; scale: 1}
+
+.ande-s-bx:hover {transition: all ease-in-out 0.7s; outline-offset: 0px}
+
+.ande-s-bx:hover img {transition: all ease-in-out 0.7s; filter: grayscale(1) blur(2px) brightness(50%); scale: 1.5;}
+
+.ande-s-back {width: 300px; height: 185px; margin: -400px 0px 0px 0px; position: absolute; background: var(--g10); mix-blend-mode: soft-light; transition: all ease-in-out 0.7s}
+
+.ande-s-bx:hover .ande-s-back {transiition: all ease-in-out 0.7s; margin: -185px 0px 0px 0px}
+
+.ande-s-tit {width: auto; height: auto; margin: -115px 0px 0px 20px; position: absolute; font-family: contrail one; font-weight: bold; text-transform: uppercase; color: transparent; -webkit-text-stroke: 0.5px var(--g10); font-size: 30px; transition: all ease-in-out 0.7s; opacity: 1; transition-delay: 0.3s}
+
+.ande-s-bx:hover .ande-s-tit {transition: all ease-in-out 0.7s; opacity: 0;}
+
+.ande-s-txt1 {width: auto; height: auto; margin: -90px 0px 0px 20px; position: absolute; font-size: 9px; font-family: inconsolata; text-transform: uppercase; font-weight: bold; letter-spacing: 2px; color: #bbb; transition: all ease-in-out 0.7s; opacity: 1; transition-delay: 0.3s}
+
+.ande-s-bx:hover .ande-s-txt1 {transition: all ease-in-out 0.7s; opacity: 0}
+
+.ande-s-txt2 {width: 200px; height: auto; margin: -125px 0px 0px 55px; position: absolute; font-family: inconsolata; font-size: 9px; text-transform: uppercase; color: #eee; letter-spacing: 2px; text-align: center; line-height: 180%; font-weight: bold; transition: all ease-in-out 0.7s; opacity: 0}
+
+.ande-s-txt2 span {padding: 2px; background: var(--g10); color: #fff}
+
+.ande-s-bx:hover .ande-s-txt2 {transition: all ease-in-out 0.7s; opacity: 1; transition-delay: 0.5s}
+
+body.night .ande-s-bx {border: 10px solid var(--bordn-1)}
