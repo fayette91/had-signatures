@@ -1,0 +1,25 @@
+.lan-s-bx {width: 300px; height: 180px; margin: auto; position: relative; padding: 10px; background: var(--bckg-3); transition: all ease-in-out 0.7s; outline: 1px dotted var(--celebridades)}
+
+.lan-s-bx:hover {transition: all ease-in-out 0.7s;}
+
+.lan-s-bx img {width: 300px; height: 180px; margin: auto; transition: all ease-in-out 0.7s; position: absolute}
+
+.lan-s-bx:hover img {transition: all ease-in-out 0.7s; filter: grayscale(1) brightness(30%)}
+
+.lansb-1 {width: 100px; height: 100px; margin: -3px 0px 0px -3px; position: absolute; background: var(--celebridades); transition: all ease-in-out 0.7s}
+
+.lan-s-bx:hover .lansb-1 {transition: all ease-in-out 0.7s; width: 305px; height: 180px}
+
+.lansb-2 {width: 100px; height: 100px; margin: 83px 0px 0px 203px; position: absolute; position: absolute; background: var(--celebridades); transition: all ease-in-out 0.7s;}
+
+.lan-s-bx:hover .lansb-2 {transition: all ease-in-out 0.7s; width: 306px; height: 186px; margin: -3px 0px 0px -3px; position: absolute;}
+
+.lansb-img {width: 300px; height: 180px; margin: 0px 0px 0px 0px; position: absolute; background: url(https://i.pinimg.com/originals/2e/27/85/2e2785ecceb403e25eb6c10007f2d991.gif); mix-blend-mode: screen; opacity: 0; transition: all ease-in-out 0.7s; filter: grayscale(1)}
+
+.lan-s-bx:hover .lansb-img {transition: all ease-in-out 0.7s; opacity: 0.5}
+
+.lansb-txt {width: 200px; height: auto; margin: 65px 0px 0px 40px; position: absolute; font-size: 12px; text-transform: uppercase; font-family: inconsolata; color: #ccc; font-weight: bold; line-height: 150%; letter-spacing: 2px; text-align: center; transition: all ease-in-out 0.7s; padding: 10px; outline: 1px solid var(--celebridades); background: rgb(0, 0, 0, .4); opacity: 0}
+
+.lansb-txt span {color: var(--celebridades); font-family: staatliches; font-size: 20px}
+
+.lan-s-bx:hover .lansb-txt{transition: all ease-in-out 0.7s; opacity: 1; transition-delay: 0.5s}
